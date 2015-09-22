@@ -1,0 +1,7 @@
+<ul>
+  <h2>Deis Accounts</h2>
+  {{#each model as |account|}}
+    {{#deis-accounts name=account.name id=account.id}}
+    {{/deis-accounts}}
+  {{/each}}
+</ul>
